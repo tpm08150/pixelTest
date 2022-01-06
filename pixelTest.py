@@ -17,8 +17,8 @@ np = neopixel.NeoPixel(LED_PIN, LED_COUNT, brightness=LED_BRIGHTNESS, auto_write
 x = 0
 start = time.time()
 for i in range(50):
-    np[i] = (0, 0, 255)
+    np[i] = (0, 255, 255)
     np.show()
 end = time.time()
 print(end-start)
-
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
